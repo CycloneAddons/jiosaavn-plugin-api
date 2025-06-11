@@ -171,6 +171,7 @@ export class JioSaavnAPI {
 			albumName: null,
 			artistArtworkUrl: null,
 			previewUrl: null,
+			alldata: track,
 		};
 
 		if (track?.perma_url) {
